@@ -1,14 +1,5 @@
 <template>
-<div class="container">
-    <div class="row">
-        <li>
-            <a>{{tree[0].label}}</a>
-            <ul>
-                <!-- <test3 v-if="tree.children" :tree="item" v-for="item in tree.children"></test3> -->
-            </ul>
-        </li>
-    </div>
-</div>
+    <p>test3 works</p>
 </template>
 
 <script>
@@ -20,9 +11,7 @@ export default{
     }
   },
   computed:{
-     tree(){
-         return this.$store.state.tree
-     } 
+     
   }
 }
 </script>
